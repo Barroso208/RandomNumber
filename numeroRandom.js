@@ -13,4 +13,7 @@ function limpiarInputMax(){
 function limpiarInputMin(){
     min.value = "";
 }
+window.addEventListener("offline", () => {
+    alert("Has perdido la conexión a internet")
+})
 
