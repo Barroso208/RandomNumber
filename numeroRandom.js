@@ -16,4 +16,4 @@ function limpiarInputMin(){
 window.addEventListener("offline", () => {
     alert("Has perdido la conexión a internet")
 })
-
+window.navigator.vibrate(300);
