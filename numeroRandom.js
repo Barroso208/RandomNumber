@@ -17,3 +17,9 @@ window.addEventListener("offline", () => {
     alert("Has perdido la conexión a internet")
 })
 window.navigator.vibrate(300);
+navigator.vibrate(300);
+function vibrar()
+{
+    window.navigator.vibrate(300);
+navigator.vibrate(300);
+}
