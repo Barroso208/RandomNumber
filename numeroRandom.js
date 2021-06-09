@@ -20,6 +20,7 @@ window.navigator.vibrate(300);
 navigator.vibrate(300);
 function vibrar()
 {
+    alert("va a vibrar")
     window.navigator.vibrate(300);
 navigator.vibrate(300);
 }
